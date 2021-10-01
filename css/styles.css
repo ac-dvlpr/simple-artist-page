@@ -1,0 +1,135 @@
+body {
+  background-color: #FCFBDA !important;
+  color: #484848 !important;
+  font-family: 'Montserrat', Arial !important;
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.container-margin {
+  margin-bottom: 50px;
+}
+
+.content-img {
+  border-radius: 100%;
+  float: left;
+  width: 100%;
+  max-width: 300px;
+}
+
+.darker-bg {
+  background-color: #EAFFBD !important;
+}
+
+.fab, .far {
+  font-size: 1.5em;
+  padding: 0 10px 20px;
+}
+
+footer i {
+  color: #484848 !important;
+}
+
+footer i:hover {
+  color: #696969 !important;
+}
+
+.gallery img {
+  filter: grayscale(100%);
+  padding: 15px 0;
+  transition: 1s;
+  width: 100%;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
+
+.logo-font {
+  font-family: 'Pinyon Script', Textile;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  padding: 50px 0;
+}
+
+.img-left-section {
+  text-align: left;
+}
+
+.img-right-section {
+  text-align: right;
+}
+
+.main-container {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#main-image {
+  filter: brightness(60%);
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+nav .logo-font {
+  font-size: 2em;
+}
+
+.scroll-margin {
+  scroll-margin-top: 70px;
+}
+
+.title {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vertical-alignment {
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .content-img {
+    float: none;
+    margin: 0 0 30px;
+    width: 50%;
+  }
+
+  .gallery img {
+    width: 70%;
+  }
+
+  .img-left-section, .img-right-section {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card-price-list {
+    margin-bottom: 30px;
+  }
+}
